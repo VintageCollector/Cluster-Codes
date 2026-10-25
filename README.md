@@ -24,4 +24,6 @@ Down	D4	Mega GND
 OK / Enter	D5	Mega GND
 Back / Return	D7	Mega GND
 
-
+## Arduino Libraries list
+Here are all the libraries that you need to compile the various sketches uploaded on this server. Download the libraries.zip file from the Drive link, inside the extracted libraries folder you will find a bunch of folder. These are the various libraries used in the codes, copy all of them and paste it inside your Documents>Arduino>libraries folder.
+https://drive.google.com/file/d/12Rs2FqrABOIPdF6imUb3-447yJGPziGY/view?usp=sharing
