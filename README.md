@@ -11,10 +11,10 @@
 
 Enabled for BeamNG, ETS2, ATS and original Assetto Corsa only:
 
-1. Valid raw speed is exactly zero, before rounding.
-2. Valid raw RPM is greater than 4000, before rounding.
-3. Gear is Drive or first Drive/Sport: D, D1, S1, A1 or numeric 1.
-4. ESC/DSC is explicitly confirmed off.
+1. Speed should be 0mph/kmph
+2. RPM is greater than 4000, hold Brake and press Gas Pedal at same time.
+3. Gear in Drive or first Drive/Sport: D, D1, S1, A1 or M1.
+4. ESC/DSC (TC) is OFF.
 
 ## LCD button wiring
 Use four normally-open momentary buttons, matching the user's original test sketch:
