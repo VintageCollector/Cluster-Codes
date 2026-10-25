@@ -1,6 +1,6 @@
 ## Hardware and installation
 
-1. Open Panamera970/Panamera970.ino in Arduino IDE. Select Mega 2560 / ATmega2560 and upload this complete sketch folder. Do not upload SHCustomProtocol.h alone.
+1. Open Panamera970/Panamera970.ino in Arduino IDE. Select your Arduino board and upload this complete sketch folder. 
 2. Use the Seeed CAN\_BUS\_Shield library providing mcp2515\_can.h
 3. In SimHub select this device, named Porsche Panamera 970, in Multiple USB mode. Enable Arduino Custom Protocol and Use JavaScript, then paste the entire SimHubFormula\_Panamera970.js. SimHub adds the newline. Do not also open the same port as a Custom Serial Device.
 4. For BeamNG SH Telemetry/Extra, close the game, replace its active mods/simhubextras.zip with BeamNG/simhubextras.zip from this package, and restart. Keep one active copy and put the backup outside mods. 
