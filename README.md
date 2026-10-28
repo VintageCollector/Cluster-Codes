@@ -3,7 +3,6 @@ Audi A8 MLB Cluster Pinout:
 | Pin | Description |
 | --- | --- |
 | **1** | J533 diagnostic interface
-
 | --- | --- |
 | **2** | CAN shield
 
