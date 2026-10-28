@@ -35,7 +35,8 @@
 | **31** | Terminal 30 (+12V)
 | **32** | Terminal 30 (+12V)
 
-**Cluster Menu Navigation Pinout**
+## Cluster Menu Navigation Pinout
+
 D5 - UP
 D6 - DOWN
 D4 - LEFT
