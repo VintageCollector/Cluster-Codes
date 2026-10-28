@@ -44,3 +44,7 @@ D3 - OK
 
 ## Arduino Libraries list ##
 Here are all the libraries that you need to compile the various sketches uploaded on this server. Download the libraries.zip file from the Drive link, inside the extracted libraries folder you will find a bunch of folder. These are the various libraries used in the codes, copy all of them and paste it inside your Documents>Arduino>libraries folder. https://drive.google.com/file/d/12Rs2FqrABOIPdF6imUb3-447yJGPziGY/view?usp=sharing
+
+## Youtube Clip Code (@ Courtesy of my friend Albert):##
+I've added an extra folder called Albert. It contains two .hex arduino files that can be flashed with X-loader app on to a Mega or Uno. Make sure to set the can bus shield CS pin to 9. 
+https://www.youtube.com/watch?v=DfoEeDiIlP4
