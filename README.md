@@ -9,3 +9,6 @@ This Arduino code is for a BMW G30 cluster.
 
 ## Arduino Libraries list ##
 Here are all the libraries that you need to compile the various sketches uploaded on this server. Download the libraries.zip file from the Drive link, inside the extracted libraries folder you will find a bunch of folder. These are the various libraries used in the codes, copy all of them and paste it inside your Documents>Arduino>libraries folder. https://drive.google.com/file/d/12Rs2FqrABOIPdF6imUb3-447yJGPziGY/view?usp=sharing
+
+## Acknowledgment 
+Special Thanks to my friends Mikey (mr_goofy) & Albert for helping me a lot with this code. They worked very hard to gather a lot of information.
