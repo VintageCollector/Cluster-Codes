@@ -14,8 +14,25 @@ Enabled for BeamNG, ETS2, ATS and original Assetto Corsa only:
 
 1. Speed should be 0mph/kmph
 2. RPM is greater than 4000, hold Brake and press Gas Pedal at same time.
-3. Gear in Drive or first Drive/Sport: D, D1, S1, A1 or M1.
-4. ESC/DSC (TC) is OFF.
+3. Gear in Drive or first Drive/Sport: D, S or M1.
+4. ESC/DSC (TC) is ON.
+
+## Features available: 
+
+1. Make sure to add the attached mod .zip files are added to the BeamNG mod folder and then activated in the game to have some features enabled. 
+2. Then AUTO H & AUTO H + Green Parking Brake indicator lamps with work showing when the feature is activated & car is stopped with brakes applied. 
+3. Auto High Beams are ON for cars that support it. 
+4. Cruise control is available. It’s a combination of Cruise indicator and LIM indicators (without the LIM indicator bulb). 
+5. Fog Lamps (front and rear) indicators available . 
+6. Turn indicators available.
+7. Low and high beam indicators available.
+8. Engine Oil temperature and fuel indicators are available. 
+
+## Features under testing:
+
+1. Auto Start/Stop
+2. Lane indicator
+
 
 ## LCD button wiring
 Use four normally-open momentary buttons, matching the user's original test sketch:
