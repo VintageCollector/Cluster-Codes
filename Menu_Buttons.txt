@@ -1,0 +1,24 @@
+MENU BUTTON WIRING - Mega 2560
+Each switch connects its digital pin to GND when pressed. INPUT_PULLUP is enabled.
+Do not apply 12 V to these pins. This assumes five separate dry-contact switches;
+a resistor ladder or original powered steering-wheel module needs a different interface.
+
+D3 = Up    (provisional; PDF says D3/D4 are Up or Down)
+D4 = Down  (provisional; swap the first two FUSION_MENU_CODES if reversed)
+D5 = Right (provisional; PDF says unknown)
+D6 = Back  (PDF label; sends reference Left command 0x02, verify on cluster)
+D7 = OK    (PDF says should be OK)
+
+Edit FUSION_MENU_PINS / FUSION_MENU_CODES near the top of SHCustomProtocol.h.
+CAN ID 0x081 byte 1: Up=08 Down=01 Left/Back=02 Right=04 OK=10.
+Remaining seven bytes zero. Sends every 50 ms; 25 ms debounce.
+Releasing sends zero. Multiple pressed buttons send zero after debounce.
+Works without running game telemetry if cluster is powered/awake.
+
+D5 was freed from ignition duty. Optional ignition relay logic is now D40,
+disabled by default (FUSION_ENABLE_RELAY=0). Enable only with a suitable driver.
+The SimHub JavaScript and BeamNG companion are unchanged.
+
+Source: supplied Menu pins (not multimedia).pdf plus the 0x081 command values
+from Ford Fusion 2016 Hybrid/src/CAN/vin.cpp. Wiring labels marked provisional
+have not been established by the PDF. Hardware test each button individually.
