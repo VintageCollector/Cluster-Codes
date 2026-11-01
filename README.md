@@ -26,11 +26,12 @@ Enabled for BeamNG, ETS2, ATS and original Assetto Corsa only:
 5. Fog Lamps (front and rear) indicators available . 
 6. Turn indicators available.
 7. Low and high beam indicators available.
-8. Engine Oil temperature and fuel indicators are available. 
+8. Engine Oil temperature and fuel indicators are available.
+9. Auto Start/Stop works with attached mod.
 
 ## Features under testing:
 
-1. Auto Start/Stop
+1. SLI - Speed Limit Information Indicator (coding of cluster required if not activated)
 2. Lane indicator
 
 
