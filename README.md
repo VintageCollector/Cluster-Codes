@@ -29,11 +29,13 @@ Enabled for BeamNG, ETS2, ATS and original Assetto Corsa only:
 8. Engine Oil temperature and fuel indicators are available.
 9. Auto Start/Stop works with attached mod.
 10. SLI - Speed Limit Information Indicator (coding of cluster required if not activated), is now activated in the game.
-11. Lane assist indicator now appears, but testing in game still ongoing as it causes some issues with cruise and still not working properly. Could be a mod issue too? 
+11. Eco Pro: Charge - Power gauge fixed. Still needs some smoothing.
+12. Lane assist indicator now appears, but testing in game still ongoing as it causes some issues with cruise and still not working properly. Could be a mod issue too? 
 
 ## Features under testing:
 
 1. Lane indicator (coding of cluster required if not activated)
+2. Efficiency Dynamics charging gauge still needs to be figured out.
 
 
 ## LCD button wiring
