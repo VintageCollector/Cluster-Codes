@@ -17,6 +17,9 @@
 | IN7 | Coolant warning | D28 | A0 |
 | IN8 | SRS warning | D29 | A1 |
 
+Note: Ignore IN7 for now. IN4 and IN 5 are driven by low beams telemetry from the game. One is for the backlight and other is the lamp malfunction indicator is repurposed as low beam icon and it used a ground rather than 12V, so a second relay had to be used.
+
+
 ## Arduino Libraries list
 Here are all the libraries that you need to compile the various sketches uploaded on this server. Download the libraries.zip file from the Drive link, inside the extracted libraries folder you will find a bunch of folder. These are the various libraries used in the codes, copy all of them and paste it inside your Documents>Arduino>libraries folder.
 https://drive.google.com/file/d/12Rs2FqrABOIPdF6imUb3-447yJGPziGY/view?usp=sharing
