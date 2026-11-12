@@ -1,4 +1,4 @@
-## Hardware and installation
+## Arduino Code uploading
 
 1. Open DisplayClientV2.ino in Arduino IDE. Select your Arduino board and upload this complete sketch folder. 
 2. Use the Seeed CAN\_BUS\_Shield library providing mcp2515\_can.h
