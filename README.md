@@ -1,3 +1,5 @@
+To change CS Pin in AudiConfig.h file in line no.3 change #define AUDI_CS 10 to #define AUDI_CS 9 and save it Then flash the files to Arduino. 
+
 **Audi A8 MLB Cluster Pinout:**
 
 | Pin | Description |
