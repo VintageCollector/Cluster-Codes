@@ -2,8 +2,9 @@
 
 1. Open Panamera970/Panamera970.ino in Arduino IDE. Select your Arduino board and upload this complete sketch folder. 
 2. Use the Seeed CAN\_BUS\_Shield library providing mcp2515\_can.h
-3. In SimHub select this device, named Porsche Panamera 970, in Multiple USB mode. Enable Arduino Custom Protocol and Use JavaScript, then paste the entire SimHubFormula\_Panamera970.js. SimHub adds the newline. Do not also open the same port as a Custom Serial Device.
-4. For BeamNG SH Telemetry/Extra, close the game, replace its active mods/simhubextras.zip with BeamNG/simhubextras.zip from this package, and restart. Keep one active copy and put the backup outside mods. 
+3. To change from CS 9 to CS 10 (if your shield is using CS 10), the go to Line 10 in ShCustomprotocol.h file and change it to " mcp2515_can canBus{10};"
+4. In SimHub select this device, named Porsche Panamera 970, in Multiple USB mode. Enable Arduino Custom Protocol and Use JavaScript, then paste the entire SimHubFormula\_Panamera970.js. SimHub adds the newline. Do not also open the same port as a Custom Serial Device.
+5. For BeamNG SH Telemetry/Extra, close the game, replace its active mods/simhubextras.zip with BeamNG/simhubextras.zip from this package, and restart. Keep one active copy and put the backup outside mods. 
 
 ## 
 
