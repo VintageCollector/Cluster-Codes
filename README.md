@@ -1,9 +1,9 @@
 ## Hardware and installation
 
-1.Connect Arduino board to your PC and Seeed Studio CAN-BUS Shield V2.0 to Mega SPI. Shield MCP2515 assumed 16 MHz, 500 kbps, CS=D9
-2.In Arduino IDE open DisplayClientV2/DisplayClientV2.ino, select Tools → Board → Arduino Mega or Mega 2560/Uno, and compile/upload.
+1.Connect Arduino board to your PC and Seeed Studio CAN-BUS Shield V2.0 to Mega SPI. Shield MCP2515 assumed 16 MHz, 500 kbps
+2.In Arduino IDE open DisplayClientV2/DisplayClientV2.ino, select Tools → Board → Arduino Mega or Mega 2560, and compile/upload.
 3.In SimHub choose Arduino → My Hardware and connect the detected board. In Custom Protocol enable Use JavaScript, paste the complete text from SimHubFormula.js, and enable a short refresh (e.g. 25–50 ms) if adjustable.
-Note: I've used a Mega so, but you can use an Uno board also similar steps.
+Note: I've used a Mega die to size of code, as it wont flash on an Uno.
 4.Put all the zip files in BeamNG folder inside your BeamNG's mod folder
 
 ## 
