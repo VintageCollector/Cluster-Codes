@@ -6,7 +6,7 @@
 
 3.In SimHub choose Arduino → My Hardware and connect the detected board. In Custom Protocol enable Use JavaScript, paste the complete text from SimHubFormula.js, and enable a short refresh (e.g. 25–50 ms) if adjustable.
 
-Note: I've used a Mega die to size of code, as it wont flash on an Uno.
+Note: I've used a Mega due to size of code, as it wont flash on an Uno.
 
 4.Put all the zip files in BeamNG folder inside your BeamNG's mod folder
 
